@@ -6,3 +6,6 @@ This App is not completed yet.Preview of App prepared so far is shown below:
 ![captue1](https://user-images.githubusercontent.com/43849911/66267136-3b80d180-e84b-11e9-87c1-7df52c81f472.jpg)
 
 ![capture0](https://user-images.githubusercontent.com/43849911/66269866-49dee580-e86b-11e9-8293-f61924b23a21.jpg)
+
+![capture1](https://user-images.githubusercontent.com/43849911/66270366-371adf80-e870-11e9-8d32-b884a9fd0f31.jpg)
+
