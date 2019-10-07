@@ -17,3 +17,5 @@ Preview of App is shown below:
 
 ![capture1](https://user-images.githubusercontent.com/43849911/66270366-371adf80-e870-11e9-8d32-b884a9fd0f31.jpg)
 
+![capture1](https://user-images.githubusercontent.com/43849911/66308050-b1f10280-e923-11e9-9fdf-86c1631e4e04.jpg)
+
