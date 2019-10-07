@@ -22,19 +22,28 @@ handleChange=e=>{
   console.log(e.target.value);
 }
 
-handleSubmit=e=>{
+handleSubmit = e => {
   e.preventDefault();
-  const authType=this.props.signUp?"signup":"signin";
-  this.props.onAuth(authType,this.state).then(()=>{
-   console.log("LOGGED IN");
-
-  })
-}
-
+  const authType = this.props.signUp ? "signup" : "signin";
+  this.props
+    .onAuth(authType, this.state)
+    .then(() => {
+      this.props.history.push("/");
+    })
+    .catch(() => {
+      return;
+    });
+};
 
 render(){
 const {email,username,password,profileImageUrl}=this.state;
-const {heading,buttonText,signUp}=this.props;
+const {heading,buttonText,signUp,errors,history,removeError}=this.props;
+
+history.listen(()=>{
+  removeError();
+})
+
+
 return (
 <div className="signup" >
 <div className="row  justify-content-md-center text-center " >
@@ -43,6 +52,7 @@ return (
           <h2>
              {heading}
           </h2>
+          {errors.message && <div className="alert alert-danger">{errors.message}</div>}
           <label htmlFor="email">
             Email:
           </label>
@@ -52,6 +62,7 @@ return (
              value={email}
              onChange={this.handleChange}
              type="text"
+             autoComplete="off"
             />
            <label htmlFor="password">
               Password:
@@ -61,6 +72,7 @@ return (
                name="password"
                onChange={this.handleChange}
                type="password"
+               autoComplete="off"
               />
             {signUp && (
                <div>
@@ -74,9 +86,10 @@ return (
                     value={username}
                     onChange={this.handleChange}
                     type="text"
+                    autoComplete="off"
                    />
                  <label htmlFor="image-url">
-                     Image Url::
+                     Image Url:
                    </label>
                     <input className="form-control"
                       id="image-url"
@@ -84,6 +97,7 @@ return (
                       onChange={this.handleChange}
                       type="text"
                       value={profileImageUrl}
+                      autoComplete="off"
                      />
 
 
