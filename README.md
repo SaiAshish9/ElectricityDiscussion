@@ -1,5 +1,7 @@
 # ElectricityDiscussion
-This App is not completed yet.Preview of App prepared so far is shown below:
+This uses reactJs,redux,various npm packages such as cors,react-moment,bcryptjs and jsonwebtoken,etc and mongoose.
+
+Preview of App is shown below:
 
 ![captue0](https://user-images.githubusercontent.com/43849911/66267137-3b80d180-e84b-11e9-8f36-821e649d2e00.jpg)
 
