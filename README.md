@@ -7,6 +7,8 @@ Preview of App is shown below:
 
 ![captue1](https://user-images.githubusercontent.com/43849911/66267136-3b80d180-e84b-11e9-87c1-7df52c81f472.jpg)
 
+![capture2](https://user-images.githubusercontent.com/43849911/66296129-8281cc00-e90a-11e9-82b9-cda4290b230f.jpg)
+
 ![capture1](https://user-images.githubusercontent.com/43849911/66295255-814f9f80-e908-11e9-8e94-599fdd7d5958.jpg)
 
 ![capture0](https://user-images.githubusercontent.com/43849911/66295256-81e83600-e908-11e9-83cf-75d57eeaa33e.jpg)
